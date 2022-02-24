@@ -36,16 +36,22 @@
                 <p>
                     Fill out this form and one of our trainers will schedule a consult.
                 </p>
-                <label for="fullname">Enter full name</label>
-                    <input type="text" id="fullname" name="fullname">
-                <label for="email">Enter email address</label>
-                    <input type="text" id="email" name="email">
-                <label for="tele">Enter a telephone number</label>
-                    <input type="text" id="tele" name="tele">
-                <label for="train">Have you worked out witha trainer before?</label>
-                    <input type="checkbox"> Yes
-                    <input type="checkbox"> No
-                <button>Get Running!</button>
+                <form >
+                    <label for="name">Enter full name:</label>
+                        <input type="text" placeholder="Your Name"  id="name" name="name"/>
+                    <label for="email">Enter email address:</label>
+                        <input type="text" placeholder="Email Address" id="email" name="email"/>
+                    <label for="tele">Enter a telephone number:</label>
+                        <input type="text" placeholder="Telephone Number" id="tele" name="tele"/>
+                   <p>
+                       Have you worked out with a trainer before?
+                       <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                       <label for="trainer-yes">Yes</label>
+                       <input type="radio" name="trainer-confirm" id="trainer-no" />
+                       <label for="trainer-no">No</label>
+                   </p>
+                    <button>Get Running!</button>
+                </form>
             </div>
         </section>
 
