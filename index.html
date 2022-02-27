@@ -5,6 +5,7 @@
         <title>Run Buddy</title>
         <link rel="stylesheet" href="./assets/css/style.css"/> 
     </head>
+
     <body>
         <header>
             <h1>
@@ -28,8 +29,8 @@
             </nav>
         </header>
 
-        <section>
-            <div>
+        <section class="hero">
+            <div class="hero-form">
                 <h3>
                     Get Started Today!
                 </h3>
@@ -38,11 +39,12 @@
                 </p>
                 <form >
                     <label for="name">Enter full name:</label>
-                        <input type="text" placeholder="Your Name"  id="name" name="name"/>
+                        <input class="input-form" type="text" placeholder="Your Name"  id="name" name="name"/>
                     <label for="email">Enter email address:</label>
-                        <input type="text" placeholder="Email Address" id="email" name="email"/>
+                        <input class="input-form" type="email" placeholder="Email Address" id="email" name="email"/>
                     <label for="tele">Enter a telephone number:</label>
-                        <input type="text" placeholder="Telephone Number" id="tele" name="tele"/>
+                        <input class="input-form" type="tel" placeholder="Telephone Number" id="tele" name="tele"/>
+                
                    <p>
                        Have you worked out with a trainer before?
                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -50,7 +52,13 @@
                        <input type="radio" name="trainer-confirm" id="trainer-no" />
                        <label for="trainer-no">No</label>
                    </p>
-                    <button>Get Running!</button>
+                   <p>
+                       <label for="age">I acknowledge that I am at least 18 years of age.</label>
+                       <input type="checkbox" name="age-acknowledge" id="age">
+                    </p>
+                    <button type="submit">
+                        Get Running!
+                    </button>
                 </form>
             </div>
         </section>

@@ -34,6 +34,54 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+section {
+    padding: 60px;
+}
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    border: solid 3px #024e76;
+    padding: 30px;
+    width: 600px;
+    position: absolute;
+    bottom: 140px;
+    right: 110px;
+}
+.hero-form h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.input-form {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form button {
+    margin: 10px 0;
+    padding: 10px 20px;
+}
 footer {
     background: #fce138;
     width: 100%;
