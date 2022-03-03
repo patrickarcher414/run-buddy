@@ -10,7 +10,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color:#39a6b2
+    background-color:#39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -48,10 +48,12 @@ section {
 }
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 700px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 .hero-form {
     background-color: #fce138;
@@ -219,9 +221,12 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2 {
-    display: inline;
+    display: flex;
     color: #024e76;
     font-size: 30px;
     margin: 0;
