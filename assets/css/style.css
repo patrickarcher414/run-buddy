@@ -23,13 +23,10 @@ header h1 {
     margin: 0;
 }
 
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
 header nav {
   margin: 7px 0;
 }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -42,10 +39,14 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-decoration: none;
+    color: #fce138;
 }
+
 section {
     padding: 60px;
 }
+/* hero styles */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -53,15 +54,29 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+ }
 
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
 }
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
+
 .hero-form {
     background-color: #fce138;
     color: #024e76;
     border: solid 3px #024e76;
     padding: 30px;
     width: 600px;
-    position: absolute;
     bottom: 140px;
     right: 140px;
 }
